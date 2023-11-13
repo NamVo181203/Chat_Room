@@ -9,9 +9,10 @@ if username == 'admin':
     password = input("Enter admin password: ")
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client.connect(('127.0.0.1', port_int))
+client.connect(('192.168.1.9', port_int))
 
 stop_thread = False
+
 
 def receive():
     while True:

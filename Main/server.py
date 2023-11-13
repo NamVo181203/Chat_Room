@@ -2,7 +2,7 @@ import threading
 import socket
 from random import randint
 
-host = '127.0.0.1'  # localhost
+host = '192.168.1.9'  # localhost
 port = randint(0, 65535)
 print(f'Port of the server: {port}')
 
